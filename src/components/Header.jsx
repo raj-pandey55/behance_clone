@@ -1,6 +1,6 @@
 function Header() {
   return (
-    <div className="header border-b  px-6 container-fluid flex justify-between font-sans">
+    <div className="header border-b  px-6 flex justify-between font-sans">
       {/*NavBar Left*/}
       <div className="header_left flex">
         <ul className="flex items-center align-center justify-between text-l font-bold">

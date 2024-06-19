@@ -1,6 +1,7 @@
 
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import ImageCard from "./components/ImageCard";
 
 function App() {
   
@@ -8,7 +9,8 @@ function App() {
   return (
     <>
       <Header/>
-      <Footer />
+      <ImageCard/>
+      <Footer/>
     </>
   );
 }

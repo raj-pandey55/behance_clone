@@ -2,8 +2,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <section className="px-4 py-3 w-full bg-black text-white font-acumin-pro">
-      <div className="container mx-auto my-10 pb-20 border-b">
+    <section className="px-10 py-3 w-full bg-black text-white font-acumin-pro">
+      <div className="container-top mx-auto my-10 pb-20 border-b">
         <a href="#">
           <img
             src="https://cdn-icons-png.flaticon.com/512/51/51916.png"
@@ -215,7 +215,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="container mx-auto my-10 flex items-start justify-start gap-10 font-medium">
+      <div className="container-bottom mx-auto my-10 flex items-start justify-start gap-10 font-medium">
       <div className="adobe-button flex items-center align-middle font-medium justify-start gap-1 ">
         <img
           className="adobe size-6 bg-white"
