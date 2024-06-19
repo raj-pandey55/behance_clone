@@ -5,8 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+    fontFamily: {
+      'sans' : ['"acumin-pro", "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif']
+    },
   },
   plugins: [],
+}
 }
 
