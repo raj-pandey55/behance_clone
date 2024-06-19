@@ -5,7 +5,7 @@ function Header() {
       <div className="header_left flex">
         <ul className="flex items-center align-center justify-between text-l font-bold">
           <li className="logo_behance mr-2 w-[30px] ">
-            <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/behance-icon.png" />{" "}
+            <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/behance-icon.png"/>
           </li>
           <li className="mx-3 mt-1 my-0">
             <a className="nav-items flex items-center" href="#">
@@ -71,14 +71,14 @@ function Header() {
           type="button"
           className="log-in mt-3 mx-2 text-blue-600 bg-sky-50 border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-bold rounded-full text-sm px-5 py-2 me-2 mb-3"
         >
-          Login
+          Log In
         </button>
 
         <button
           type="button"
           className="sign-up mx-2 text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-bold rounded-full  px-6 py-2 text-sm me-2 mb-0"
         >
-          SignUp
+          Sign Up
         </button>
 
         <div className="adobe-logo mx-2 font-medium ">

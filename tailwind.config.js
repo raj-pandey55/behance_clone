@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
     fontFamily: {
-      'sans' : ['"acumin-pro", "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif']
+      'sans' : ['"acumin-pro", "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif'],
+      'acumin-pro': ['"acumin-pro-wide", "Acumin Pro Wide", "Helvetica Neue", Helvetica, Arial, sans-serif']
     },
   },
   plugins: [],
