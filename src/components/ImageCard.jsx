@@ -11,7 +11,7 @@ function ImageCard() {
       <div className="grid lg:grid-cols-3 sm:grid-cols-2  gap-4 py-5 px-5">
         {imageItems.map((item) => (
           <div className="card-item cursor-pointer">
-            <div className="card-img h-56 relative overflow-hidden rounded-md">
+            <div className="card-img h-72 relative overflow-hidden rounded-md">
               <div className="bg-blur"></div>
               <img
                 src={item.Img}
