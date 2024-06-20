@@ -6,7 +6,67 @@ import { CiImageOn } from "react-icons/ci";
 const SearchBar = () => {
   const suggestions = ["logo", "typography", "ui", "car", "case study"];
 
-  const searchItems = ["logo", "typography", "ui", "car", "case study", "web design", "branding", "poster", "illustration", "app design", "icon", "packaging", "motion", "animation", "photography", "editorial", "3d", "architecture", "fashion", "product design", "advertising", "art direction", "graphic design", "interaction design", "street art", "street photography", "street fashion", "street style", "street food", "street dance","queen", "horse", "rat"];
+  const searchItems = [
+    "Apple",
+    "Banana",
+    "Cherry",
+    "Date",
+    "Elderberry",
+    "Fig",
+    "Grape",
+    "Honeydew",
+    "Iceberg",
+    "Jackfruit",
+    "Kiwi",
+    "Lemon",
+    "Mango",
+    "Nectarine",
+    "Orange",
+    "Papaya",
+    "Quince",
+    "Raspberry",
+    "Strawberry",
+    "Tomato",
+    "Ugli fruit",
+    "Vanilla",
+    "Watermelon",
+    "Xigua",
+    "Yam",
+    "Zucchini",
+    "logo",
+    "typography",
+    "ui",
+    "car",
+    "case study",
+    "web design",
+    "branding",
+    "poster",
+    "illustration",
+    "app design",
+    "icon",
+    "packaging",
+    "motion",
+    "animation",
+    "photography",
+    "editorial",
+    "3d",
+    "architecture",
+    "fashion",
+    "product design",
+    "advertising",
+    "art direction",
+    "graphic design",
+    "interaction design",
+    "street art",
+    "street photography",
+    "street fashion",
+    "street style",
+    "street food",
+    "street dance",
+    "queen",
+    "horse",
+    "rat",
+  ];
 
   const [searchList, setSearchList] = useState([]);
 
@@ -55,7 +115,9 @@ const SearchBar = () => {
           </div>
           {searchList.length !== 0 ? (
             <div className="search-drop-down absolute border -bottom-4 left-0 px-5 py-5 rounded-2xl shadow-md">
-                <p className="text-xs px-5 font-bold text-[#696969]">SUGGESTIVE SEARCHES</p>
+              <p className="text-xs px-5 font-bold text-[#696969]">
+                SUGGESTIVE SEARCHES
+              </p>
               <ul className="">
                 {searchList.map((search) => (
                   <li className="search-bar-suggestions rounded font-bold">

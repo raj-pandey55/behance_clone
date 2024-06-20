@@ -1,14 +1,19 @@
+Sure, here's the updated README with the added feature of clicking on a photo to display a modal:
+
+---
+
 # Behance Clone Project
 
 ## Overview
 
-This project is a clone of the Behance website's landing page. It includes features such as search auto-suggestions and a sorting button to filter the displayed content. The aim is to replicate the design and functionality of Behance's landing page, providing a seamless user experience.
+This project is a clone of the Behance website's landing page. It includes features such as search auto-suggestions and a sorting button to filter the displayed content. Additionally, users can click on photos to open a modal with an enlarged view of the image. The aim is to replicate the design and functionality of Behance's landing page, providing a seamless user experience.
 
 ## Features
 
 - **Landing Page:** A visually appealing and responsive landing page that mirrors the design of Behance.
 - **Search Auto-Suggestions:** A dynamic search bar that provides auto-suggestions as users type, enhancing the search experience.
 - **Sorting Button:** A button to sort the displayed projects based on different criteria such as relevance, popularity, or date.
+- **Image Modal:** Users can click on a photo to open a modal with an enlarged view of the image, improving the user experience.
 
 ## Technologies Used
 
@@ -47,12 +52,16 @@ Check out the live demo of the project [here](https://yourusername.github.io/beh
 ### Search Auto-Suggestions
 1. Begin typing in the search bar located at the top of the landing page.
 2. A dropdown list of suggestions will appear based on your input.
-3. Select a suggestion to view related projects.
 
 ### Sorting
 1. Click on the sorting button located next to the search bar.
 2. Choose your preferred sorting criteria from the dropdown menu (e.g., relevance, popularity, date).
-3. The displayed projects will be rearranged according to your selection.
+
+
+### Image Modal
+1. Click on any photo displayed on the landing page.
+2. A modal will appear over the window, displaying an enlarged view of the image.
+3. Click Escape button or on the close button to exit the modal view.
 
 ## Project Structure
 
@@ -104,8 +113,6 @@ behance-clone/
 
 6. **Create a pull request:**
    Submit your pull request through the GitHub interface.
-
-
 
 ## Acknowledgements
 
