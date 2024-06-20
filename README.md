@@ -1,6 +1,4 @@
-Sure, here's the updated README with the added feature of clicking on a photo to display a modal:
 
----
 
 # Behance Clone Project
 
