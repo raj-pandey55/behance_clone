@@ -1,4 +1,3 @@
-
 # Behance Clone Project
 
 ## Overview
@@ -17,6 +16,10 @@ This project is a clone of the Behance website's landing page. It includes featu
 - **React:** For building the user interface.
 - **Tailwind CSS:** For styling the page with utility-first CSS.
 - **React Icons:** For incorporating icons easily within the project.
+
+## Live Demo
+
+Check out the live demo of the project [here](https://yourusername.github.io/behance-clone).
 
 ## Installation
 
@@ -103,6 +106,7 @@ behance-clone/
    Submit your pull request through the GitHub interface.
 
 
+
 ## Acknowledgements
 
 - **Behance:** The design inspiration for this project.
@@ -110,44 +114,8 @@ behance-clone/
 
 ## Contact
 
-For any questions or feedback, please reach out to `rajpandey552002@gmail.com`.
+For any questions or feedback, please reach out to [rajpandey552002@gmail.com]().
 
 ---
 
 Thank you for checking out the Behance Clone Project! We hope you find it useful and educational.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
