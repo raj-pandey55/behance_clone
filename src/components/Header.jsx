@@ -1,9 +1,9 @@
 function Header() {
   return (
-    <div className="header border-b  px-6 flex justify-between font-sans">
+    <div className="header border-b  px-6 flex justify-between text-s font-sans sticky top-0 z-50 bg-white">
       {/*NavBar Left*/}
       <div className="header_left flex">
-        <ul className="flex items-center align-center justify-between text-l font-bold">
+        <ul className="flex items-center align-center justify-between font-bold">
           <li className="logo_behance mr-2 w-[30px] ">
             <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/behance-icon.png"/>
           </li>

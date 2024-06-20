@@ -14,8 +14,8 @@ function ImageCard() {
             <div className="card-img h-56 relative overflow-hidden rounded-md">
               <div className="bg-blur"></div>
               <img
-                src={item.featureImg}
-                alt={item.featureTxt}
+                src={item.Img}
+                alt={item.Text}
                 className="w-full h-full"
               />
               <div className="save-button absolute top-2 left-2 flex gap-1 items-center bg-gray-700 text-white rounded-full px-3 py-1 text-xs">
@@ -28,17 +28,17 @@ function ImageCard() {
             <div className="card-content py-3">
               <div className="card-user flex items-start justify-between text-xs font-acumin-pro">
                 <div className="text-content">   
-                <p className="font-bold text-sm">{item.featureTxt}</p>
-                <p className="text-black">{item.feUser}</p>
+                <p className="font-bold text-sm">{item.Text}</p>
+                <p className="text-black">{item.Author}</p>
                 </div>
                 <div className="button flex items-center justify-between gap-2 ">
                   <div className="like-button flex items-center gap-1 text-[#959595]">
                     <BiSolidLike />
-                    <span className="text-black">{item.feLike}</span>
+                    <span className="text-black">{item.Like}</span>
                   </div>
                   <div className="watch-button flex items-center gap-1 text-[#959595]">
                     <IoMdEye />
-                    <span className="text-black">{item.feWatch}</span>
+                    <span className="text-black">{item.Watch}</span>
                   </div>
                 </div>
               </div>

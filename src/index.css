@@ -58,6 +58,29 @@
     transition: 0.25s linear all;
   }
 
+  .sort-tems {
+    outline: none;
+    
+  }
+
+  .search-drop-down{
+    width: 100%;
+    background-color: #fff;
+    max-height: 300px;
+    overflow-y: scroll;
+    z-index: 1;
+    transform: translateY(100%);
+  }
+
+  .search-bar-suggestions {
+    padding: 0.5rem 1rem;
+  }
+
+  .search-bar-suggestions:hover{
+    cursor: pointer;
+    background-color: #f5f5f5;
+  }
+
  
 
  
