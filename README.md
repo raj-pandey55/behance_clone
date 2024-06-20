@@ -24,7 +24,7 @@ This project is a clone of the Behance website's landing page. It includes featu
 
 ## Live Demo
 
-Check out the live demo of the project [here](https://yourusername.github.io/behance-clone).
+Check out the live demo of the project [here](https://behance-clone-raj.netlify.app/).
 
 ## Installation
 
