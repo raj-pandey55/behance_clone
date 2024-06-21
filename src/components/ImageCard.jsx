@@ -61,7 +61,7 @@ function ImageCard() {
             </div>
             <div className="card-content py-3">
               <div className="card-user flex items-start justify-between text-xs font-acumin-pro">
-                <div className="text-content">   
+                <div className="text-content flex flex-col items-start">   
                 <p className="font-bold text-sm">{item.Text}</p>
                 <p className="text-black">{item.Author}</p>
                 </div>
